@@ -1,3 +1,5 @@
+## Blogposts
+
 Simple react-redux app for fetching blog posts and authors using [JSONPlaceholder](https://jsonplaceholder.typicode.com).
 
 The app fetches list of blogposts first, and then for each blogpost fetches author information. To avoid multiple network requests for overfetching author's information memoization from lodash library is used.
